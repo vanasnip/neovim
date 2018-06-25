@@ -19,6 +19,8 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'flowtype/vim-flow'
 Plugin 'chriskempson/base16-vim'
 Plugin 'shougo/deoplete.nvim'
+Plugin 'ap/vim-css-color'
+Plugin 'mxw/vim-jsx'
 "Plugin 'w0rp/ale'
 Plugin 'scrooloose/syntastic'
 " The following are examples of different formats supported.
@@ -222,6 +224,8 @@ endif
 let g:user_emmet_mode='a'    "enable all function in all mode.:
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
+" Enable jsx for js all files
+let g:jsx_ext_required = 0
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
